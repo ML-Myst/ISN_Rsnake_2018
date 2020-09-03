@@ -1,0 +1,72 @@
+							/* toutes les pages*/
+body {
+	font-family: "Arial", "verdana", "Times-new-roman";
+	background-image: url("images/fond.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: RGB(64,64,64);
+
+
+        
+}
+.titre{
+	position: absolute;
+}
+.paragraphe{
+	font-family: verdana;
+	font-size: 13px;
+    width: 900px         
+}
+.menuaccueil {
+    margin-left: -650px;    
+}
+a{
+color: RGB(136,136,136);
+text-decoration: none;
+}/*hyperlien bleu*/
+.copyright {
+	font-size: 8px
+}							
+#mentions{
+	text-align: center
+	font-size: 13px;
+    width: 900px  
+}
+.element {
+    display: inline-block;
+    font-size: 16px;
+    position:absolute,;
+}
+.element :hover{
+    position: absolute, top 20px; left 20px;
+    display: inline-block;
+    font-size: 17px;
+    color: black;
+    
+}
+.titrepartie{
+	font-weight: 400;
+	line-height: 1.1;
+	font-size: 27px;
+}
+.texte1box{
+margin: auto;
+text-align: center
+width: 300px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footer {
+    font-size: 11px;
+    color: 47,47,47;
+
+}
+
+textarea {
+    resize: none;
+}
